@@ -7,7 +7,25 @@
 </head>
 
 <body>
-	<!-- the entire body must be written by student -->
+	 <div id="grid-container">
+      <div id="1" class="grid-item">1</div>
+      <div id="2" class="grid-item">2</div>
+      <div id="3" class="grid-item">3</div>
+      <div id="4" class="grid-item">4</div>
+      <div id="5" class="grid-item">5</div>
+      <div id="6" class="grid-item">6</div>
+      <div id="7" class="grid-item">7</div>
+      <div id="8" class="grid-item">8</div>
+      <div id="9" class="grid-item">9</div>
+    </div>
+    <form>
+      <label for="block_id">Enter Block ID Number :</label>
+      <input type="text" maxlength="1" id="block_id" name="block_id"><br><br>
+      <label for="colour_id">Choose Color:</label>
+      <input type="color" id="colour_id" name="colour_id"><br><br>
+      <input type="button" value="Change Color" onclick="changeColor()">
+      <input type="button" value="Reset" onclick="resetColors()">
+    </form>
     <script type="text/javascript" src="./script.js">
 </script>
 
